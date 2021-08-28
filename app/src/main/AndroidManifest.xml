@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.words">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Words">
+        <activity android:name=".LookWordActivity"></activity>
+        <activity android:name=".SearchActivity">
+
+        </activity>
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashActivityTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.home.FinishAcitivy" />
+        <activity android:name=".ui.home.LearnActivity" />
+        <activity
+            android:name=".ui.notifications.ChooseBookActivity"
+            android:label="选择单词书" />
+        <activity android:name=".MenuActivity">
+
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/selector_tab_color" />
+
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity" >
+
+        </activity>
+    </application>
+
+</manifest>

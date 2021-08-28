@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ReciteWord</string>
+
+    <string-array name="spinnerLearn">
+        <item>小学</item>
+        <item>初中</item>
+        <item>高中</item>
+        <item>大学</item>
+        <item>以上</item>
+    </string-array>
+
+    <string name="spinnerTitle">请选择你的学习层次</string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Translation</string>
+    <string name="title_notifications">Settings</string>
+    <string name="title_activity_bottom">MainActivity</string>
+</resources>

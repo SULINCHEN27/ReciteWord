@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/tab_learn"
+        android:title="首页"/>
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/tab_translate"
+        android:title="翻译"/>
+
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/tab_my"
+        android:title="我的"/>
+</menu>
